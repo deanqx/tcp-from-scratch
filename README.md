@@ -13,3 +13,9 @@ and run with
 ```bash
 ./a.out
 ```
+
+Send message over TCP with
+
+```bash
+printf hello | socat - TCP:127.0.0.1:54333
+```
